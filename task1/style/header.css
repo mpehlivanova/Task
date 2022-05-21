@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+#headerDiv {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 36.5px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-bottom: 0.2px solid gray;
+
+}
+
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    border-bottom: 1px solid gray;
+    margin-right: 20px;
+}
+
+#navbar a:hover {
+    background-color: rgb(71, 71, 71, 25%);
+    border-bottom: 2px solid white;
+
+}
+
+#line {
+    width: 100%;
+    border-bottom: 0.2px solid gray;
+    padding-top: 20px;
+}
